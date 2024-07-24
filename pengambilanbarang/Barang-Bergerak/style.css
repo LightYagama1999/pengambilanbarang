@@ -1,0 +1,41 @@
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #fff;
+}
+
+.custom-heading {
+    color: #f86f03;
+    font-family: "Merriweather" , serif;
+    margin-top: 3px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.custom-heading2 {
+    color: black;
+    font-family: "Merriweather" , serif;
+    margin-top: 3px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#about {
+    background-color: #f86f03;
+}
+
+#projects {
+    background-color: #fff;
+}
+
+#contact {
+    background-color: #f86f03;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+footer {
+    background-color: #fff;
+    margin-top: -1px;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Petro Perkasa Indonesia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color: #f86f03">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo2-removebg-preview.png" alt="Logo" width="50" height="50">
+        </a>
+        
+        </button>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/logo.jpg" alt="Logo Petro" width="200" />
+      <h1 class="display-4 custom-heading">WAREHOUSE PPI </h1>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -10px">
+        <path
+          fill="#f86f03"
+          fill-opacity="1"
+          d="M0,160L48,138.7C96,117,192,75,288,85.3C384,96,480,160,576,181.3C672,203,768,181,864,149.3C960,117,1056,75,1152,58.7C1248,43,1344,53,1392,58.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhirjumbotron -->
+    <!-- Form -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="custom-heading2">Pengambilan Barang Bergerak</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+          <div class="col-md-6">
+            <form id="uploadForm" action="https://script.google.com/macros/s/AKfycbytwoU7CsbmR8ZU5Y_ZMwMyuA3gM0YqgcI726UAbe5xUBdYa-4jGPHV8IVotvk-tV_46g/exec" method="POST">
+              <input type="hidden" value="" name="fileContent" id="fileContent" />
+              <input type="hidden" value="" name="filename" id="filename" />
+                <div class="mb-3 custom-heading2">
+                  <label for="nama" class="form-label">Nama</label>
+                  <input type="text" id="nama" name="Nama" class="form-control" placeholder="Di isi nama yang ambil barang..." required />
+                </div>
+                <div class="mb-3 custom-heading2">
+                  <label for="Kode Barang" class="form-label">Kode Barang</label>
+                  <select class="form-select" aria-label="Default select example" name="Kode Barang" id="kode_barang">
+                    <option selected disabled>Pilih Kode Barang...</option>
+                    <option value="A1">A1</option>
+                    <option value="B1">B1</option>
+                    <option value="C1">C1</option>
+                    <option value="D1">D1</option>
+                  </select>
+                </div>
+                <div class="mb-3 custom-heading2" id="A1">
+                  <label for="A1" class="form-label">A1</label>
+                  <select class="form-select" aria-label="Default select example" name="A1">
+                    <option selected disabled>Barang IT</option>
+                    <option value="Adaptor CCTV">Adaptor CCTV</option>
+                    <option value="CCTV">CCTV</option>
+                    <option value="HARDISK">HARDISK</option>
+                    <option value="SSD">SSD</option>
+                    <option value="PROCESSOR">PROCESSOR</option>
+                    <option value="KABEL LAN">KABEL LAN</option>
+                    <option value="MIKROTIK">MIKROTIK</option>
+                    <option value="HUB">HUB</option>
+                    <option value="MONITOR">MONITOR</option>
+                  </select>
+                </div>
+                <div class="mb-3 custom-heading2" id="A2">
+                  <label for="jumlah" class="form-label">Jumlah Barang</label>
+                  <input type="number" class="form-control" name="Jumlah1" min="1" max="10" lenght="1" value="">
+                </div>
+                <div class="mb-3 custom-heading2" id="B1">
+                  <label for="B1" class="form-label">B1</label>
+                  <select class="form-select" aria-label="Default select example" name="B1">
+                    <option selected disabled>Barang Welder</option>
+                    <option value="KAWAT LAS">KAWAT LAS</option>
+                    <option value="API">API</option>
+                    <option value="BESI">BESI</option>
+                    <option value="SIKU L">SIKU L</option>
+                    <option value="TURBO">TURBO</option>
+                    <option value="KACAMATA LAS">KACAMATA LAS</option>
+                    <option value="PETIR">PETIR</option>
+                    <option value="MESIN LAS">MESIN LAS</option>
+                    <option value="MOTOR PENGGERAK">MOTOR PENGGERAK</option>
+                  </select>
+                </div>
+                <div class="mb-3 custom-heading2" id="B2">
+                  <label for="jumlah" class="form-label">Jumlah Barang</label>
+                  <input type="number" class="form-control" name="Jumlah2" min="1" max="10" lenght="1" value="">
+                </div>
+                <div class="mb-3 custom-heading2" id="C1">
+                  <label for="C1" class="form-label">C1</label>
+                  <select class="form-select" aria-label="Default select example" name="C1">
+                    <option selected disabled>Barang Electrik</option>
+                    <option value="TERMINAL">TERMINAL</option>
+                    <option value="STEKER">STEKER</option>
+                    <option value="LAMPU PJU">LAMPU PJU</option>
+                    <option value="LAMPU BOLA">LAMPU BOLA</option>
+                    <option value="MCB">MCB</option>
+                    <option value="LISTRIK">LISTRIK</option>
+                    <option value="PENGGARIS">PENGGARIS</option>
+                    <option value="ADAPTOR">ADAPTOR</option>
+                    <option value="BATTERAY">BATTERAY</option>
+                  </select>
+                </div>
+                <div class="mb-3 custom-heading2" id="C2">
+                  <label for="jumlah" class="form-label">Jumlah Barang</label>
+                  <input type="number" class="form-control" name="Jumlah3" min="1" max="10" lenght="1" value="">
+                </div>
+                <div class="mb-3 custom-heading2" id="D1">
+                  <label for="D1" class="form-label">D1</label>
+                  <select class="form-select" aria-label="Default select example" name="D1">
+                    <option selected disabled>Barang Mechanic</option>
+                    <option value="FILTER">FILTER</option>
+                    <option value="OLI">OLI</option>
+                    <option value="LAMPU ROTARI">LAMPU ROTARI</option>
+                    <option value="LAMPU MUNDUR">LAMPU MUNDUR</option>
+                    <option value="SEIN KANAN">SEIN KANAN</option>
+                    <option value="FUSE">FUSE</option>
+                    <option value="ALKON">ALKON</option>
+                    <option value="DISPENSER">DISPENSER</option>
+                    <option value="KOPI">KOPI</option>
+                  </select>
+                </div>
+                <div class="mb-3 custom-heading2" id="D2">
+                  <label for="jumlah" class="form-label">Jumlah Barang</label>
+                  <input type="number" class="form-control" name="Jumlah4" min="1" max="10" lenght="1" value="">
+                </div>
+                <div class="mb-3 custom-heading2">
+                  <label for="pesan" class="form-label">Keterangan</label>
+                  <textarea class="form-control" id="pesan" rows="4" name="keterangan" placeholder="Digunakan Untuk apa..."></textarea>
+                </div>
+                <div class="mb-3 custom-heading2">
+                  <label for="attach" class="form-label">Gambar Barang</label>
+                  <input required id="attach" name="attach" type="file" class="form-control" required />
+                </div>
+              <div class="mb-3 text-center">
+                <button type="button" class="btn btn-primary" onclick="UploadFile();">KIRIM</button>
+                <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  Loading...
+                </button>
+                <a href="https://link.petroperkasaindonesia.com/" class="btn btn-primary" target="_blank">MENU</a>
+                <button class="btn btn-danger" type="reset">RESET</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L48,186.7C96,181,192,171,288,186.7C384,203,480,245,576,261.3C672,277,768,267,864,245.3C960,224,1056,192,1152,192C1248,192,
+      1344,224,1392,240L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,
+      384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir Form -->
+
+    <!-- footer -->
+    <footer class="text-center pb-3">
+      <p class="text-black">2024 <i class="bi bi-c-circle"></i> <a href="https://petroperkasaindonesia.com/" class="text-black fw-bold">Lucky Ananda Pradani</a></p>
+    </footer>
+    <!-- akhir footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+      <script src="script.js"></script>
+  </body>
+</html>
